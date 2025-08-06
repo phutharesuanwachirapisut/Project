@@ -8,7 +8,7 @@ import altair as alt
 import datetime
 import plotly.graph_objects as go
 # Import Data
-df = pd.read_csv("./F&B_data.csv")
+df = pd.read_csv("FnB_data.csv")
 
 # Set-up Data Type
 df.Date = pd.to_datetime(df.Date)
